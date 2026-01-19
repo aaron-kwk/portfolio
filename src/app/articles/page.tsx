@@ -14,7 +14,6 @@ function Article({ article }: { article: ArticleWithSlug }) {
         </Card.Title>
         <Card.Eyebrow
           as="time"
-          dateTime={article.date}
           className="md:hidden"
           decorate
         >
@@ -25,7 +24,6 @@ function Article({ article }: { article: ArticleWithSlug }) {
       </Card>
       <Card.Eyebrow
         as="time"
-        dateTime={article.date}
         className="mt-1 hidden md:block"
       >
         {article.date}
@@ -37,7 +35,7 @@ function Article({ article }: { article: ArticleWithSlug }) {
 export const metadata: Metadata = {
   title: 'Articles',
   description:
-    'An online, public thought log',
+    'Rough thoughts and journals',
 }
 
 export default async function ArticlesIndex() {
@@ -45,8 +43,8 @@ export default async function ArticlesIndex() {
 
   return (
     <SimpleLayout
-      title="A Young Man's Thoughts"
-      intro="Finding a theme for life through writing"
+      title="Blog"
+      intro="Unfiltered rough writing, mostly for posterity. If you happen to read them, please enjoy!"
     >
       <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
         <div className="flex max-w-3xl flex-col space-y-16">

@@ -69,62 +69,68 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Hey, I&apos;m Aaron 😎😼
+            Hi, I&apos;m Aaron 😎😼
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
               My parents moved to Texas from Seoul around 1999. I was born there, in 2001, 
               in a small town called Tomball, around a 40 minute drive from Houston. 
-              Before Katrina passed through, we moved up to Chicago, where I&apos;ve been ever since.
-              Despite having been raised nearly my whole life in the Chicagoland area, I&apos;ve always
-              imagined what it would be like to live elsewhere (I&apos;m open to relocation!) 🏙️ 
+              We moved up to the Chicago suburbs before Katrina passed through Texas, and I lived there from then until late 2024.
             </p>
             <p>
               I attended Purdue University for my undergraduate degree, graduating Dec. 2023 with a B.S in 
               Computer Science and a concentration in software engineering. During my time as a student I also
-              interned at Argonne National Laboratories and Amazon Web Services 🌐. I&apos;m passionate about 
-              cloud computing, database systems, and tool development.
+              interned at Argonne National Laboratories and Amazon Web Services 🌐.
             </p>
             <p>
-              Aside from programming, I&apos;m passionate about weightlifting 🏋️, nutrition 🍖,
-              cool fashion 👖, reading 📖, and running 🏃. No matter what life throws at me, I&apos;ve promised myself that
-              these five interests will always remain a key part of my life.
+              Aside from programming, I like to lift, find new recipes to try,
+              look for cool clothes occasionally, and read some fiction. Recently I&apos;ve also started learning
+              some drumming fundamentals on the pad!
             </p>
             <p>
-              Currently, I&apos;m working at Apple , a real dream come true :). I&apos;m always looking to improve myself and my skills, however.
-              Please feel free to reach out to me, for any reason!
+              I&apos;ve been developing at Apple  for the past year or so as of 2026, and it&apos;s been a great experience so far.
+              I&apos;m always looking to improve my skills.
+              I&apos;ve been doing the Advent of Code in different languages and am building some projects to broaden my horizons.
+            </p>
+            <p>
+              I&apos;ve lived the majority of my life in the Chicagoland area, and while I work out of Austin now,
+              I&apos;d really love to return home someday. If you have positions either in Austin, the Chicagoland area,
+              or remote, I&apos;d be open to discussing the possibility of working with you.
+            </p>
+            <p>
+              Please feel free to reach out to me for any reason.
             </p>
           </div>
         </div>
         <div className="lg:pl-20">
           <ul role="list">
             <SocialLink
-              href="https://github.com/kim3470"
+              href="https://github.com/aaron-kwk"
               icon={GitHubIcon}
               className="mt-4"
             >
-              My projects on GitHub 😼
+              My Github
             </SocialLink>
             <SocialLink
               href="https://www.linkedin.com/in/akim0928/"
               icon={LinkedInIcon}
               className="mt-4"
             >
-              Connect with me on LinkedIn! 🔗
+              My LinkedIn
             </SocialLink>
             <SocialLink
               href="https://www.instagram.com/aaron.wkim/"
               icon={InstagramIcon}
               className="mt-4"
             >
-              Follow me on Instagram! 📸
+              My Instagram
             </SocialLink>
             <SocialLink
-              href="https://drive.google.com/file/d/1KMZz8Jn1ZU7gFyTZyhcQrLdWIKIiQzBM/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1X_7TF_ggiuX7tkvvxiGjQdPKKLNTj5TE/view?usp=drive_link"
               icon={ResumeIcon}
               className="mt-4"
             >
-              My resume 📄
+              My Resume
             </SocialLink>
             <SocialLink
               href="mailto:aaronkim0928@gmail.com"

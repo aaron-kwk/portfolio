@@ -12,9 +12,7 @@ export const metadata: Metadata = {
     template: '%s - Aaron Kim',
     default: 'Aaron Kim',
   },
-  description: `I'm a software engineer who prides himself in his sense of
-                humor (it's pretty elite). I'm a fast learner and my wit is
-                even faster.`,
+  description: `Software Engineer for Apple, based out of Austin`,
   authors: [
     {
       name: "Aaron Kim",

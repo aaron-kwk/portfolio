@@ -1,0 +1,43 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import Image from 'next/image'
+import image from './image.png'
+
+export const article = {
+  author: 'Aaron Kim',
+  date: 'Monday | January 19, 2026',
+  title: 'Catcher in the Rye',
+  description:
+    'nostalgic book recap',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+<Image src={image} alt="" />  
+
+<br />  
+
+(placeholder) 
+Read this book for the first time in HS. Re-read it recently.
+I don&apos;t really read a lot of books, so its imagery stuck out in my memory. 
+
+It didn&apos;t disappoint. I remember relating to the solitude that Holden felt when he was stuck in Manhattan all alone. 
+He didn&apos;t feel like seeing people more than once, but he also got too restless and depressed being stuck in his hotel room, 
+so there are a couple scenes of him wandering through the streets of a wintry New York, quietly observing all the 
+things around him that came off as amusing or bizarre in the dead-quiet emptiness of the night.
+
+I remember this same feeling of self-imposed loneliness from back when my mother first passed away, and I think I really resonated with the fact that
+Holden was my age and that he felt out of place. I wasn&apos;t the only one who felt that way back then, but in my isolation it helped to know that
+at least one other person was out there who had felt the same way I did and wrote this story.
+
+<br />  
+
+
+<br />  
+
+
+<br />  

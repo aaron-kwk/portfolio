@@ -45,21 +45,21 @@ function Organization({
 export const metadata: Metadata = {
   title: 'Experience',
   description:
-    'A history of my professional and curricular endeavors',
+    'My professional and curricular history',
 }
 
 export default function Experiences() {
   return (
     <SimpleLayout
-      title="A history of my professional and curricular endeavors"
-      intro="Below you'll find everywhere I've studied, or worked at. Feel free to click on any of the entries to take you to the organization's homepage."
+      title="My professional and curricular history"
+      intro="Below you'll find everywhere I've studied or worked at. Feel free to click on any of the entries to take you to the organization's homepage."
     >
       <div className="space-y-10">
         <Category title="Experiences">
           <Organization
             href="https://www.apple.com/"
             location="Apple"
-            description="Working at  as a Software Developer in IS&T, Apple's internal technology organization"
+            description="Working full-time at  as a Software Developer in Apple's internal technology organization."
             timeframe="Nov. 4 - Present, Austin"
             cta="Apple"
           />

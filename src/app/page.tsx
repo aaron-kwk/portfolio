@@ -218,7 +218,7 @@ export default async function Home() {
             {`Hi, I'm Aaron :) Welcome to my site!`}
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            {`My name is Aaron Kim, and I'm a recent software engineering graduate from Purdue.
+            {`I'm Aaron and I work as a software engineer at Apple.
             Here you'll find my experiences, links to my socials, my projects on Github,
             and you'll also find out a little bit about me. I hope you enjoy your stay 😁`}
           </p>
