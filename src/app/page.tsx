@@ -215,16 +215,16 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            {`Hi, I'm Aaron :) Welcome to my site!`}
+            {`Hi, I'm Aaron`}
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            {`I'm Aaron and I work as a software engineer at Apple.
-            Here you'll find my experiences, links to my socials, my projects on Github,
-            and you'll also find out a little bit about me. I hope you enjoy your stay 😁`}
+            {`My name is Aaron Kim and I work as a software engineer, currently at Apple.
+            You can find a history of my experience, links to my socials, my projects on Github,
+            and a quick description about me. I hope you enjoy your stay 😁`}
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
-              href="https://github.com/kim3470"
+              href="https://github.com/aaron-kwk"
               aria-label="Check out my stuff on GitHub 😺"
               icon={GitHubIcon}
             />
@@ -239,8 +239,8 @@ export default async function Home() {
               icon={InstagramIcon}
             />
             <SocialLink
-              href="https://drive.google.com/file/d/1KMZz8Jn1ZU7gFyTZyhcQrLdWIKIiQzBM/view?usp=drive_link"
-              aria-label="My resume 📄"
+              href="https://drive.google.com/file/d/1X_7TF_ggiuX7tkvvxiGjQdPKKLNTj5TE/view?usp=drive_link"
+              aria-label="My Resume 📄"
               icon={ResumeIcon}
             />
 
